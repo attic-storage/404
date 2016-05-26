@@ -14,9 +14,10 @@
       <h1 class="project-name">404</h1>
       <h2 class="project-tagline">
         You ask for 
-        <script>
-          document.write(document.location.pathname.replace("/404", ""));
-        </script>
+        <ul>
+          <li>path:<script>document.write(document.location.pathname.replace("/404", ""));</script></li>
+          <li>search:<script>document.write(document.location.search);</script></li>
+        </ul>
         pages
       </h2>
     </section>
